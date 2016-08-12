@@ -1,3 +1,24 @@
+@media screen and (max-width: 1000px) {
+  #navigation {
+    width: 100%;
+    height: auto;
+    float: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 0;
+  }
+
+  #navigation a {
+    margin: 0;
+    text-align: center;
+    padding: 0.5em 0;
+    flex: 1 1 33%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   * {
     box-sizing: border-box;
@@ -32,22 +53,7 @@
     box-shadow: none;
   }
 
-  #navigation {
-    width: 100%;
-    height: auto;
-    float: none;
-    position: relative;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1em 0;
-  }
-
   #navigation a {
-    margin: 0;
     flex: 1 1 100%;
-    text-align: center;
-    padding: 0.5em 0;
   }
 }
