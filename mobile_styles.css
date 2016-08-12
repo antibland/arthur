@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    padding: 0;
+    margin: 0;
+  }
+
+  [id^=dresser] {
+    height: auto !important;
+  }
+
+  #logo {
+    background: #448ccb;
+    margin-left: 0;
+    height: auto;
+    float: none;
+  }
+
+  #logo h1 {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+  }
+
+  #header {
+    top: 0;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  #navigation {
+    width: 100%;
+    height: auto;
+    float: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 0;
+  }
+
+  #navigation a {
+    margin: 0;
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 0.5em 0;
+  }
+}

@@ -1,0 +1,394 @@
+*{
+
+	outline:none;
+	
+	}
+	
+	
+
+
+body{
+			padding: 10px;
+			
+			margin: 0;
+			
+			color:#51535e;
+			
+			font-family: 'Nunito', sans-serif;
+			
+			font-weight:700;
+			
+			font-size:14px;
+			
+			line-height:150%;
+		
+			text-align:center;
+			
+			background:url('cb_images/goyu.jpg');
+			
+			overflow:scroll;
+			
+			
+			}
+			
+			
+h1,h2,h3,h4,h5,h6,h7,h8{
+			font-size:16px;
+			font-family: 'Nunito', sans-serif;
+			font-weight:700;
+	}
+	
+	
+h1{
+			font-size:16px;
+			font-family: 'Nunito', sans-serif;
+			font-weight:700;
+			margin-bottom:3px;
+			color:#51535e;
+	}
+
+h2{ 
+			font-size:18px;
+			font-family: 'Nunito', sans-serif;
+			font-weight:normal;
+			letter-spacing:1.5px;
+			
+
+
+	}
+	
+ a{ 
+
+			font-family:'Nunito', sans-serif;
+			
+			font-weight:700;
+			
+			text-decoration:none;
+			
+			margin: 15px 0 0 0;
+			
+			font-size:16px;	
+			
+			color:#51535e;
+			
+			display:block;
+			
+
+	}
+	
+	
+		a:link {color:#51535e;}    
+				
+		a:hover{color:#393939;}  
+				
+		a:active{color:#51535e;}
+		
+		
+	.projects #window a{
+	
+		display:inline;	
+		
+		margin:0 7px 0 0;
+		
+	}
+	
+	
+	.projects #window a:hover{
+	
+		opacity:.8;
+		-moz-opacity:.8;
+		-webkit-opacity:.8;
+	} 
+	
+	
+	.dis{
+		
+		display:none;
+	
+	}
+
+	
+	p{
+			
+			font-weight:300;
+	
+	}
+			
+			
+#container{ 
+
+			width:980px;
+	
+			margin:0 auto;
+		
+			text-align:left;
+			
+			background:url('cb_images/container.png') repeat-y;
+			
+			border-radius:5px 0 0 5px;
+			
+			-moz-border-radius:5px 0 0 5px;
+			
+			-webkit-border-radius:5px 0 0 5px;	
+			
+	}
+	
+
+.home #window {
+
+		
+			
+			padding:78px 75px 0px 75px;
+
+}
+
+
+ #window {	
+			width:650px;
+		
+			margin:0px 0 0 204px;
+			
+			padding:89px 75px 0px 75px;	
+		
+}
+
+
+.ifap #window a{
+
+			display:inline;
+			margin:10px;
+
+}
+
+
+#nav{
+
+
+			margin:20px 0 0 270px;
+			
+}
+
+
+.pad{
+	
+			text-align:center;
+			margin:0;
+			float:left;
+
+}
+
+
+#leftcol{
+
+			float:left;
+			
+			width:202px;	
+
+}
+
+
+#navigation{      
+			
+			width:100px;
+			
+			margin:0 0 0 70px;
+	
+			text-align:left;
+			
+
+	}
+	
+
+	
+	
+	
+	/*-------------- SOCIAL NAV LINKS-------------------*/
+
+.home #socialNav{
+	
+	width:650px;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	
+}
+
+.home #socialNav a{
+	float:right;
+	
+}
+
+
+#socialNav a{
+			margin:0 6px 9px 0;
+			float:left;
+			display:block;
+			height:22px;
+			width:22px;
+			background: transparent url('cb_images/socialmedia_sprite.png') no-repeat 0 0;
+				/* text indent:-9999px gets rid of "link" text or rather, moves it aside */
+			text-indent:-9999px;
+			text-align: left;
+		
+
+	}
+	
+	.home #socialNav a{
+			margin:0 0px 9px 6px;
+	}
+
+
+#socialNav a.facebook:hover{ 
+				width:22px;  
+				background-position:0 -22px;
+
+	}
+
+
+
+
+#socialNav a.linkedIn{
+			width:22px;
+			background-position: -22px 0;
+
+	}
+
+
+
+
+#socialNav a.linkedIn:hover{
+			width:22px;
+			background-position: -22px -22px;
+			
+	}
+			
+			#socialNav a.twitter{
+			width:22px;
+			background-position: -44px 0;
+		
+
+	}
+
+#socialNav a.twitter:hover{
+			width:22px;
+			background-position: -44px -22px;
+			
+
+	}
+	
+
+/*--------------------SOCIAL NAV LINKS END----------------------*/
+	
+	
+#logo{
+			width:155px;
+			margin:11px 0 0 27px;
+			
+			
+	}	
+	
+	.logo{ 
+			display:block;
+			width: 150px;
+			height:150px;
+			background:url('cb_images/logo.png') no-repeat;
+			text-indent:-9999px;
+			margin:11px 0 0 27px;
+			
+			}
+	
+	
+	.bold{
+			font-weight:700;
+	
+	
+	
+	}
+	
+	
+	#spacer{
+	
+	height:100px
+
+}
+
+
+	#spacer2{
+	
+	height:270px
+
+}
+
+	#spacer3{
+	
+	height:165px
+
+}
+
+.border{
+		border: 1px solid #ccc;
+			
+		border-radius:3px;
+			
+		-moz-border-radius:3px;
+			
+		-webkit-border-radius:3px;
+
+
+}
+
+
+#footer{
+		
+		width:650px;
+		border-top:1px solid #51535e;
+		margin-top:60px;
+		padding:0;
+
+
+}
+
+
+ 
+.slideshow{
+			
+			width:650px;
+			height:325px;
+			
+			
+
+
+}
+
+.slideshow img{
+
+			border: 1px solid #aaa;
+			
+			border-radius:3px;
+			
+			-moz-border-radius:3px;
+			
+			-webkit-border-radius:3px;
+			
+			width:650px;
+			
+			height:325px;
+
+}
+
+.rounded{
+			border-radius:3px;
+			
+			-moz-border-radius:3px;
+			
+			-webkit-border-radius:3px;
+
+}
+
+	
+.copyright{
+		font-size:12px;
+		margin:0;
+		margin-top:5px;
+	
+	
+	}

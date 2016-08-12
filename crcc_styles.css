@@ -1,0 +1,540 @@
+*{ /*border: 1px dotted #ccc; */
+		outline:none;  
+	
+	
+	}
+
+
+
+
+
+
+	body{
+			padding:0;
+			
+			margin:0;
+			
+			font-family: 'Verdana', Arial, sans-serif;
+			
+			font-size:14px;
+			
+			line-height:150%;
+	
+			text-align: center;
+			
+			background-color:#a36209;
+			
+			
+		
+	}
+	
+		h1{
+			
+			color:#111;
+		
+			font-size:22px;
+			
+			
+	
+	}
+	
+	
+		h2{
+			
+			color:#fff799;
+			font-family:"Verdana";
+			
+			
+			font-size:16px;
+			
+		
+			
+			}
+			
+				h4{
+			font-family:"Verdana";
+			color:#fff799;
+			font-weight:bold;
+			font-size:22px;
+			margin:10px 0 30px 0;
+			
+	}
+	
+				h5{
+			font-family:"Verdana";
+			color:#a36209;
+			
+			font-size:14px;
+			
+			
+	}
+	
+			h6{
+			font-family:"Verdana";
+			font-size:14px;
+			text-align:right;
+			
+			
+	}
+	
+	
+	p{
+	
+			font-family:'Verdana', Arial, sans-serif;
+			font-size:14px;
+			line-height:20px;
+			margin:0 0 13px 0;
+	
+	}
+	
+	a{
+			color:#00aeef;
+			font-weight:normal;
+			text-decoration:none;
+			font-size:15px;
+		
+			
+
+			
+	
+	}
+	
+	#container{ 
+
+			width:965px;
+	
+			margin: 0 auto;
+	
+		text-align:left;
+	
+		
+	}
+	
+		.cast #container{ 
+
+			width:965px;
+			min-height:1200px;
+	
+			margin: 0 auto;
+	
+		text-align:left;
+	
+		
+	}
+	
+	#header{
+	
+			width:945px;
+			background:url('crcc_images/header_image.jpg.html') no-repeat;
+			height:75px;
+			padding:5px 0 5px 5px;
+			
+		
+		
+		
+	}
+	
+		#logo{ 
+
+			
+	
+			margin:20px 10px 10px 0px;
+		    width:230px;
+		    height:75px;
+			float:left;
+		
+	}
+	
+		.logo{
+
+			width:224px;
+			
+			height:62px;
+			text-indent:-9999px;
+			
+			
+			display:block;
+			background:url("crcc_images/crcc_logo.png") no-repeat 0 0;
+		
+
+    }
+	
+
+		
+	#navigation{
+	
+	height:30px;
+	margin:55px 0 0 25px;
+	float:left;
+
+	
+	
+	}
+	
+
+	
+	#navigation a.curpage{ color:#FFF;}
+	#navigation a.curpage:hover{ color:#fff799;}
+	
+	#navigation a{ 	
+			height:30px;
+			text-decoration:none;
+			margin:20px 0px 0 23px;
+			font-family:'Arial', sans-serif;
+			padding:5px 0px 5px 0px;
+			font-size:18px;
+			font-weight:bold;
+			color:#fff799;
+	
+	}
+	
+	#navigation a:link {color:#fff799;}   
+	
+	#navigation a:hover {color:#FFF;}
+	
+	#navigation a:active {color:#FFF;}
+	
+	
+	#socialNav{margin:54px 0px 0 0px;}
+	
+	#socialNav a{
+			margin:0px 0 0 12px;
+			float:right;
+			display:block;
+			height:22px;
+			width:22px;
+			background: transparent url('crcc_images/socialmedia_sprite.png') no-repeat 0 0;
+				/* text indent:-9999px gets rid of "link" text or rather, moves it aside */
+			text-indent:-9999px;
+			text-align: left;
+		
+
+
+}
+
+
+#socialNav a.twitter:hover{ 
+				width:22px;  
+				background-position:0 -23px;
+
+}
+
+/*no space*/
+
+
+#socialNav a.facebook{
+			width:22px;
+			background-position: -22px 0;
+			
+	
+
+}
+
+#socialNav a.facebook:hover{
+			width:22px;
+			background-position: -22px -23px;
+			
+	
+
+
+}
+
+
+	 #poster{
+	margin:15px 0 35px 110px;
+	
+	
+	}
+	
+
+	 #content{
+	margin:25px 0 20px 0;
+	
+	
+	}
+	
+	.about #content{
+	margin:20px 0 0 0;
+	
+	
+	}
+
+		.about #rightcol{
+	min-height:1080px;
+	
+	
+	}
+	
+		.production #rightcol{
+	min-height:2190px;
+	
+	
+	}
+	
+			.cast #rightcol{
+	min-height:825px;
+	
+	
+	}
+
+		.crew #rightcol{
+	min-height:600px;
+	
+	
+	}
+
+		.story #rightcol{
+	min-height:600px;
+	
+	
+	}
+	
+	#clearance{
+	clear:both;
+	}
+	
+	#rightcol{
+	
+	width:650px;
+	margin:0 0px 20px 0px;
+	padding:45px 50px 40px 50px;
+	float:right;
+	background:#fff799;
+	height:725px;
+
+	
+	}
+	
+	#column{
+	width:600px;
+	padding-left:20px;
+	
+	}
+	
+	
+	#leftcol{
+	width:150px;
+	
+	
+	margin:0 0 0 24px;
+	
+	
+	}
+	
+	 #menu{
+
+			margin:0px;
+			
+			height:700px;
+			
+			width:150px;
+	
+	}
+	
+	#menu a{
+
+			margin:0px 0px 12px 0px;
+			
+			float:left;
+			
+			display:block;
+			
+			height:150px;
+			
+			width:150px;
+			
+			background: transparent url('crcc_images/characters_menu.png') no-repeat 0 0px;
+				/* text indent:-9999px gets rid of "link" text or rather, moves it aside */
+			text-indent:-9999px;
+			text-align: left;
+		
+	}
+	
+	#menu a.dave:hover{ 
+			 
+			background-position:0 -150px;
+
+	}
+
+
+#menu a.elliott{
+
+			background-position: -150px 0px;
+					
+
+	}
+
+#menu a.elliott:hover{
+
+			
+			background-position:-150px -150px;
+			
+	}
+
+#menu a.henry{ 
+
+			background-position: -300px 0px;
+			
+	}
+
+
+#menu a.henry:hover{ 
+
+			background-position: -300px -150px;
+			
+	}
+
+#menu a.worf{
+			
+			background-position: -450px 0;
+			
+	}
+
+#menu a.worf:hover{
+			
+			background-position: -450px -150px;
+			
+	}
+
+
+#menu a.kwon{
+			
+			background-position: -600px 0;
+			
+	}
+	
+	
+#menu a.kwon:hover{
+			
+			background-position: -600px -150px;
+			
+	}
+
+
+	
+.copy{
+	font-size:12px;
+	color:#fff799;
+	float:left;
+
+
+}
+
+#footer{
+width:935px;
+height:35px;
+padding:10px 0px 10px 0;
+margin:20px 0 20px 0;
+
+
+}
+
+.about #footer{
+width:945px;
+height:35px;
+padding:10px 0px 10px 0;
+margin:0px 0 40px 0;
+
+
+}
+
+
+
+.spacer{height:20px;}
+
+
+
+
+
+
+
+/*--slideshow Advanced pager from Jquery Malsup cycle plug in */
+
+#slideshow { height:545px;
+			width:965px;
+			margin:0 0 40px 0;
+			
+		
+			}
+#nav { 		
+			
+			margin:0 0 0 -40px;
+			width:1040px;
+			height:500px;
+			padding:0;
+			
+			
+			
+			
+			
+			}
+			
+#nav li { 
+			width:300px;
+			margin:0 30px 80px 0; 
+			list-style:none;
+			float:left;
+			height:170px;
+			
+			
+			}
+			
+
+			
+		
+			
+#nav li a { 
+			width:300px; 
+			padding:0px; 
+			display:block; 
+			 
+		
+}
+
+
+
+#nav a.activeSlide { background: #88f;
+}
+#nav a:focus { outline: none; }
+
+#nav img { border: none; display:block; }
+
+
+
+.title{
+
+			font-family:'Verdana', Arial, sans-serif;
+			font-size:15px;
+			font-weight:bold;
+			line-height:20px;
+			margin:15px 0 0px 0;
+			color:#FFF;
+			text-align:center;
+			
+
+}
+
+.date{
+
+			font-family:'Verdana', Arial, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			line-height:20px;
+			margin:0 0 0px 0;
+			color:#fff799;
+			text-align:center;
+			
+
+}
+
+
+
+#left{
+
+float:left;
+width:220px;
+
+
+}
+
+#right{}
