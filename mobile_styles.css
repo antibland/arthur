@@ -78,8 +78,9 @@
 
   .heading {
     margin: 0;
-    padding: 3em;
+    padding: 5em 3em 3em 6em;
     width: 100vw;
+    position: relative;
   }
 
   .heading h2 {
@@ -91,22 +92,39 @@
   .knob {
     float: none;
     margin: 3em 0 0;
+    position: absolute;
+    right: 140px;
+    top: 100%;
   }
 
   #content h2 {
-    margin: 0;
-    font-size: 30px;
-    line-height: 1.2;
+    margin: 0 0 0.25em;
+    line-height: 1;
+  }
+
+  [id^=dresser] {
+    min-height: 80vh;
   }
 
   #dresser {
     min-height: 100vh;
   }
 
+  #dresser6 {
+    min-height: 320px;
+    background-position: 0 55%;
+  }
+
+  #dresser6 .knob {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
   #contact {
     width: auto;
     left: 50%;
-    bottom: 5em;
+    bottom: 4em;
     position: absolute;
     transform: translateX(-50%);
     text-align: center;
@@ -178,6 +196,10 @@
     padding: 0.5em 0;
     flex: 1 1 100%;
   }
+
+  #footer {
+    padding: 0 0 3em;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -186,12 +208,13 @@
     margin: 0;
   }
 
-  #content h2 {
-    margin-bottom: 0.5em;
+  .heading {
+    padding: 3em;
   }
 
-  [class^=drawer] {
-    width: 90%;
+  #content h2 {
+    margin-bottom: 0.5em;
+    font-size: 30px;
   }
 
   #dresser {
@@ -201,5 +224,4 @@
   #navigation {
     top: 0;
   }
-
 }
