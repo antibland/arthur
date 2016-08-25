@@ -904,7 +904,7 @@ jQuery(document).ready(function() {
 		</div>
 		<!-- end container -->
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 
 <script>
@@ -912,7 +912,7 @@ jQuery(document).ready(function() {
     $('body').append(
       '<button style="display: none" class="close-drawer"></button>'
     )
-    $('.nav-toggle.button').on('click', function() {
+    $('.nav-toggle.button, .nav-tog.but').on('click', function() {
       var _this = $(this);
 
       $('.close-drawer').css('display', 'block');
