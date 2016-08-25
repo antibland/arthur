@@ -40,6 +40,7 @@
     top: 1.7em;
     right: 10px;
     padding: 2em;
+    z-index: 999;
   }
 
   .drawer2 {
