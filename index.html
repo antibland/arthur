@@ -907,7 +907,20 @@ jQuery(document).ready(function() {
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 
+<script>
+  $('body').append(
+    '<button style="display: none" class="close-drawer"></button>'
+  )
+  $('.nav-toggle.button').on('click', function() {
+    var _this = $(this);
 
+    $('.close-drawer').css('display', 'block');
+    $('.close-drawer').on('click', function() {
+      _this.trigger('click');
+      $(this).css('display', 'none');
+    })
+  });
+</script>
 	</body>
 
 </html>
