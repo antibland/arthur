@@ -107,10 +107,6 @@
     min-height: 80vh;
   }
 
-  #dresser {
-    min-height: inherit;
-  }
-
   #dresser6 {
     min-height: 320px;
     background-position: 0 55%;
