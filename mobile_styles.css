@@ -1,4 +1,12 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-height: 670px) {
+  .knob {
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
   * {
     box-sizing: border-box;
     height: auto !important;
@@ -29,6 +37,7 @@
     transform: translate(-50%, -50%);
     max-height: 72vh;
     overflow: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
